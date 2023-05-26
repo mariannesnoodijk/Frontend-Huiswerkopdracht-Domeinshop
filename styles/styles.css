@@ -33,7 +33,7 @@ h1 {
 
 header input {
     background: none;
-    border: 1px solid #1C2B32;
+    border: 1px solid;
     border-radius: 100px 0 0 100px;
     margin: -15px;
     padding: 15px;
@@ -70,6 +70,7 @@ p {
     padding: 20px 0;
 }
 
+/* //////// ----------- SECTION 1 - TESTIMONIALS ----------- //////// */
 .first-review-box, .second-review-box {
     /*background-color: red;*/
 
@@ -79,16 +80,24 @@ p {
     padding: 50px;
     width: 100%;
 }
-
+.main-testimonials p, img {
+    margin-left: 60px;
+}
+.quote {
+    position: absolute;
+    margin: 10px;
+}
 table {
     font-style: italic;
 }
-
 td img {
     width: 44px;
     margin-right: 20px;
 }
-
+.spacing {
+    margin: 50px;
+}
+/* //////// ----------- SECTION 2 - CUSTOMER SERVICE CONTACT ----------- //////// */
 .callcenter-image {
     border-radius: 10px;
     width: 100%;
@@ -108,7 +117,7 @@ td img {
     color: #ffffff;
     padding: 15px 20px;
 }
-
+/* //////// ----------- SECTION 3 - FAQ LIST ----------- //////// */
 details {
     cursor: pointer;
     margin: 20px auto;
