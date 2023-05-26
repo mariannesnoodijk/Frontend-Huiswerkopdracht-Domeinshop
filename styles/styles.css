@@ -12,6 +12,30 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    background-image: url("assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-color: red;*/
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    width: 1000px;
+}
+header input {
+    border: 1px solid #1C2B32;
+    border-radius: 100px 0px 0px 100px;
+    margin: -5px;
+    width: 200px;
+    text-align: center;
+}
+header button {
+    border: 1px solid #1C2B32;
+    border-radius: 0px 100px 100px 0px;
+    width: 200px;
+}
 
 
 
