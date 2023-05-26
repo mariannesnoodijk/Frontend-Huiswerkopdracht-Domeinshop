@@ -13,17 +13,18 @@ body {
 }
 
 header {
-    background-image: url("assets/images/mountains.jpg");
+    /*background-color: red;*/
+    background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*background-color: red;*/
     display: block;
     text-align: center;
     margin: auto;
     padding: 30px;
-    width: 1000px;
+    /*width: 1000px;*/
 }
+
 header input {
     border: 1px solid #1C2B32;
     border-radius: 100px 0px 0px 100px;
@@ -31,18 +32,49 @@ header input {
     width: 200px;
     text-align: center;
 }
+
 header button {
+    background-color: #1C2B32;
     border: 1px solid #1C2B32;
     border-radius: 0px 100px 100px 0px;
+    color: #ffffff;
     width: 200px;
 }
 
+main {
+    width: 1000px;
+    margin: auto;
+}
 
+main h2 {
+    text-align: center;
+}
 
+section img {
+    border-radius: 10px;
+    width: 100%;
+}
 
+.link-team {
+    color: #899CA0;
+}
 
+.link-team:hover {
+    text-decoration: none;
+}
 
+.contact-button {
+    background-color: #1C2B32;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 15px 20px;
+}
 
+footer p {
+    background-color: #1C2B32;
+    color: #899CA0;
+    text-align: center;
+}
 
 
 /*////////////////////////////////////////////////////////////////////////
