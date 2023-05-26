@@ -80,7 +80,8 @@ p {
     padding: 50px;
     width: 100%;
 }
-.main-testimonials p, img {
+
+.main-testimonials p {
     margin-left: 60px;
 }
 .quote {
@@ -92,6 +93,7 @@ table {
 }
 td img {
     width: 44px;
+    margin-left: 60px;
     margin-right: 20px;
 }
 .spacing {
