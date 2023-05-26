@@ -75,7 +75,9 @@ footer p {
     color: #899CA0;
     text-align: center;
 }
-
+.faq-list {
+    cursor:pointer;
+}
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
