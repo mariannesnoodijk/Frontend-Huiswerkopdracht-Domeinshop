@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /*grijs #899CA0 en donkergroen #1C2B32*/
 
@@ -10,6 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-size: smaller;
 }
 
 header {
@@ -19,25 +20,35 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     display: block;
+    height: 550px;
     text-align: center;
     margin: auto;
     padding: 30px;
-    /*width: 1000px;*/
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.header-group p {
+    color: #1C2B32;
 }
 
 header input {
+    background: none;
     border: 1px solid #1C2B32;
-    border-radius: 100px 0px 0px 100px;
-    margin: -5px;
-    width: 200px;
-    text-align: center;
+    border-radius: 100px 0 0 100px;
+    margin: -15px;
+    padding: 15px;
+    width: 250px;
 }
 
 header button {
     background-color: #1C2B32;
     border: 1px solid #1C2B32;
-    border-radius: 0px 100px 100px 0px;
+    border-radius: 0 100px 100px 0;
     color: #ffffff;
+    padding: 15px;
     width: 200px;
 }
 
@@ -46,11 +57,44 @@ main {
     margin: auto;
 }
 
-main h2 {
+h2 {
     text-align: center;
+    padding: 40px;
 }
 
-section img {
+p {
+    padding: 20px 0;
+}
+
+.first-review-box, .second-review-box {
+    /*background-color: red;*/
+
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0 5px 15px 0;
+    margin: 10px auto;
+    padding: 50px;
+    width: 100%;
+}
+
+table {
+    font-style: italic;
+}
+td img {
+    width: 44px;
+    margin-right: 20px;
+}
+
+
+
+/*.second-review-box {*/
+/*    border-radius: 10px;*/
+/*    box-shadow: rgba(0, 0, 0, 0.20) 0 5px 15px 0;*/
+/*    margin: 10px auto 50px;*/
+/*    padding: 50px;*/
+/*    width: 100%;*/
+/*}*/
+
+.callcenter-image {
     border-radius: 10px;
     width: 100%;
 }
@@ -70,14 +114,19 @@ section img {
     padding: 15px 20px;
 }
 
-footer p {
+details {
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+footer {
     background-color: #1C2B32;
-    color: #899CA0;
+    color: #ffffff;
+    padding: 5px;
     text-align: center;
+    margin-top: 75px;
 }
-.faq-list {
-    cursor:pointer;
-}
+
 
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
