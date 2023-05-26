@@ -11,15 +11,16 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: smaller;
+    color: #1C2B32;
 }
 
+/* //////// ----------- HEADER ----------- //////// */
 header {
     /*background-color: red;*/
     background-image: url("../assets/images/mountains.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: block;
     height: 550px;
     text-align: center;
     margin: auto;
@@ -28,10 +29,6 @@ header {
 
 h1 {
     font-size: 90px;
-}
-
-.header-group p {
-    color: #1C2B32;
 }
 
 header input {
@@ -43,6 +40,10 @@ header input {
     width: 250px;
 }
 
+::placeholder {
+    color: #1C2B32;
+}
+
 header button {
     background-color: #1C2B32;
     border: 1px solid #1C2B32;
@@ -52,6 +53,9 @@ header button {
     width: 200px;
 }
 
+/* //////// ----------- END OF HEADER ----------- //////// */
+
+/* //////// ----------- MAIN ----------- //////// */
 main {
     width: 1000px;
     margin: auto;
@@ -79,20 +83,11 @@ p {
 table {
     font-style: italic;
 }
+
 td img {
     width: 44px;
     margin-right: 20px;
 }
-
-
-
-/*.second-review-box {*/
-/*    border-radius: 10px;*/
-/*    box-shadow: rgba(0, 0, 0, 0.20) 0 5px 15px 0;*/
-/*    margin: 10px auto 50px;*/
-/*    padding: 50px;*/
-/*    width: 100%;*/
-/*}*/
 
 .callcenter-image {
     border-radius: 10px;
@@ -119,6 +114,17 @@ details {
     margin: 20px auto;
 }
 
+.faq-list p {
+    background-color: #7C8E94;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 20px;
+    width: 75%;
+}
+
+/* //////// ----------- END OF MAIN ----------- //////// */
+
+/* //////// ----------- FOOTER ----------- //////// */
 footer {
     background-color: #1C2B32;
     color: #ffffff;
@@ -127,45 +133,4 @@ footer {
     margin-top: 75px;
 }
 
-
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
-    1. Global Styles
-    2. Typografie
-    3. Areas
-        3.1 Header
-        3.2 Testimonial
-        3.3 Support
-        3.4 Faq
-        3.5 Footer
-////////////////////////////////////////////////////////////////////////*/
-
-
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
-
-
-/*////////////////////////
-    2. Typography
-////////////////////////*/
-
-
-/*////////////////////////
-    3. Areas
-////////////////////////*/
-
-
-/*///////////// 3.1 Header /////////////*/
-
-
-/*///////////// 3.2 Testimonial /////////////*/
-
-
-/*///////////// 3.3 Support /////////////*/
-
-
-/*///////////// 3.4 Faq /////////////*/
-
-
-/*///////////// 3.5 Footer /////////////*/
+/* //////// ----------- END OF FOOTER ----------- //////// */
