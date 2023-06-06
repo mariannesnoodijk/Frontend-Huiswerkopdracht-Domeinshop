@@ -57,8 +57,9 @@ header button {
 
 /* //////// ----------- MAIN ----------- //////// */
 main {
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
+    padding: 0 32px;
 }
 
 h2 {
@@ -84,21 +85,26 @@ p {
 .main-testimonials p {
     margin-left: 60px;
 }
+
 .quote {
     position: absolute;
     margin: 10px;
 }
+
 table {
     font-style: italic;
 }
+
 td img {
     width: 44px;
     margin-left: 60px;
     margin-right: 20px;
 }
+
 .spacing {
     margin: 50px;
 }
+
 /* //////// ----------- SECTION 2 - CUSTOMER SERVICE CONTACT ----------- //////// */
 .callcenter-image {
     border-radius: 10px;
@@ -119,6 +125,7 @@ td img {
     color: #ffffff;
     padding: 15px 20px;
 }
+
 /* //////// ----------- SECTION 3 - FAQ LIST ----------- //////// */
 details {
     cursor: pointer;
